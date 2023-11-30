@@ -608,8 +608,6 @@ print(recommend_songs('Come As You Are', data))
 
 """## KNN Basics"""
 
-pip install scikit-surprise
-
 from surprise import Dataset, Reader
 import pandas as pd
 import numpy as np
@@ -678,8 +676,6 @@ for song_id, song_name, rating in top_n[10]:
 * Check the [Streamlit web application](https://musicrecommendationsystem-zkaftqsquighe8wizjvcas.streamlit.app/)
 * Check the [kaggle notebook](https://www.kaggle.com/aliessamali/music-recommendation-system-streamlit)
 """
-
-pip install streamlit
 
 import streamlit as st
 from scipy.spatial.distance import cdist
