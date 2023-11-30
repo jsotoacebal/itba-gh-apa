@@ -332,7 +332,7 @@ from collections import defaultdict
 from sklearn.metrics import euclidean_distances
 from scipy.spatial.distance import cdist
 import difflib
->>>>>>> 64cbfd566f8c1118d104c0d785fdb659d24b0db7:music_recommendation_system.py
+
 
 # Function to retrieve song data for a given song name
 def get_song_data(name, data):
